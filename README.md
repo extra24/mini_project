@@ -21,7 +21,6 @@
 
 <div style="border:1px solid #ddd; padding: 16px; border-radius: 8px; background-color: black; color: white;">
 
-```plaintext
 Guess Number 게임에 온 것을 환영합니다
 1부터 100 사이의 숫자를 맞춰보세요!
 숫자를 맞춰보세요: d
@@ -40,7 +39,6 @@ Guess Number 게임에 온 것을 환영합니다
 입력하신 숫자보다 낮습니다!
 숫자를 맞춰보세요: 51
 정답을 맞추셨습니다! 정답은 51 였습니다. 총 5 번의 시도를 하셨습니다!
-```
 
 </div>
 
@@ -57,9 +55,10 @@ Guess Number 게임에 온 것을 환영합니다
 2. 실행
 
    - 컴파일 후 아래 명령어로 게임을 실행할 수 있습니다.
-     '''
-     ./main
-     '''
+
+   ```bash
+   ./main
+   ```
 
 ### 구조 및 설계
 
