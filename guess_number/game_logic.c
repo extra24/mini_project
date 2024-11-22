@@ -13,7 +13,7 @@ void start_game()
     srand(time(NULL));
     int randomNum = rand() % 100 + 1; // a~b 사이 범위 : rand() % (b - a + 1) + a
 
-    printf("힌트: %d\n", randomNum);
+    // printf("힌트: %d\n", randomNum);
 
     // 게임 루프
     do 
