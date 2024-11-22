@@ -19,8 +19,7 @@
 
 ### 시연 예시
 
-<div style="border:1px solid #ddd; padding: 16px; border-radius: 8px; background-color: black; color: white;">
-
+```plaintext
 Guess Number 게임에 온 것을 환영합니다
 1부터 100 사이의 숫자를 맞춰보세요!
 숫자를 맞춰보세요: d
@@ -39,8 +38,7 @@ Guess Number 게임에 온 것을 환영합니다
 입력하신 숫자보다 낮습니다!
 숫자를 맞춰보세요: 51
 정답을 맞추셨습니다! 정답은 51 였습니다. 총 5 번의 시도를 하셨습니다!
-
-</div>
+```
 
 ### 사용 방법
 
@@ -62,8 +60,6 @@ Guess Number 게임에 온 것을 환영합니다
 
 ### 구조 및 설계
 
-<div style="border:1px solid #ddd; padding: 16px; border-radius: 8px; background-color: #f9f9f9;">
-
 ```plaintext
 guess_number
 ├── game_logic.c        # 게임 로직
@@ -71,5 +67,3 @@ guess_number
 └── main.c              # 게임 실행
 └── makefile            # 프로젝트 빌드 및 컴파일 자동화
 ```
-
-</div>
