@@ -62,7 +62,17 @@ void edit_text(TextEditor *editor)
         else if(action == 2)
         {
             // 삭제
-            
+            printf("삭제하려는 문자의 위치를 입력해주세요 (0 ~ %zu): ", editor->buffer_size -1 );
+            scanf("%zu", &position);
+            getchar(); 
+            if (position >= editor->buffer_size)
+            {
+                printf("위치를 잘못 입력하였습니다. 범위 내에서 입력해주세요.\n");
+                while (getchar() != '\n'); // 버퍼 정리
+                continue;
+            }
+            delete_character(editor, position);
+            print_text(editor);
         }
         else if(action == 3)
         {
@@ -70,7 +80,6 @@ void edit_text(TextEditor *editor)
             break;  
         }
     }
-    
 }
 
 int main()
