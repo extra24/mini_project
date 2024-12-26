@@ -11,13 +11,18 @@
 // 텍스트 입력받기
 void get_input(TextEditor *editor)
 {
-    
+    char input[1000]; // 임시 배열
+    printf("텍스트를 입력하세요: ");
+    scanf("%[^\n]", input);     // 줄바꿈 전까지 입력받기
+    getchar();  // 남아있는 '\n'을 제거
+
+    save_text(editor, input);
 }
 
 // 텍스트 편집기
 void edit_text(TextEditor *editor)
 {
-
+    printf("editor 개발중");
 }
 
 int main()
